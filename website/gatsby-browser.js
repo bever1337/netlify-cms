@@ -5,5 +5,6 @@ exports.onClientEntry = () => {
     offset() {
       return document.querySelector('#header').offsetHeight;
     },
+    durationMax: 300, // 300 milliseconds is default speed to scroll 1000px. Use 300 as ceiling, don't set floor
   });
 };
